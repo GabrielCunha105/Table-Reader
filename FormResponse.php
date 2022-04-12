@@ -6,29 +6,29 @@ class FormResponse {
     public string $email;
     public string $tipo;
     public string $linkSIGA;
-    public string|null $tituloCurto;
+    public ?string $tituloCurto;
     public string $publicoAlvo;
     public string $contatoResponsavel;
-    public string|null $telefoneAtendimento;
-    public string|null $emailAtendimento;
+    public ?string $telefoneAtendimento;
+    public ?string $emailAtendimento;
     public string $descricao;
     public string $modalidade;
-    public string|null $local;
+    public ?string $local;
     public DateTime $realizacaoInicio;
     public DateTime $realizacaoFim;
-    public array $frequencia; // *
-    public string|null $observacoesDiaHorario;
-    public string|null $linkTransmissao;
-    public int|null $vagasInternas;
-    public int|null $vagasExternas;
-    public string|null $linkInscricoes;
-    public string|null $emailInscricoes;
-    public DateTime|null $inicioInscricoes;
-    public DateTime|null $fimInscricoes;
-    public string|null $linkRedesSociais;
-    public string|null $linkImagem;
-    public string|null $linkArquivosComplementares;
-    public string|null $observacoesFinais;
+    public array $frequencia;
+    public ?string $observacoesDiaHorario;
+    public ?string $linkTransmissao;
+    public ?int $vagasInternas;
+    public ?int $vagasExternas;
+    public ?string $linkInscricoes;
+    public ?string $emailInscricoes;
+    public ?DateTime $inicioInscricoes;
+    public ?DateTime $fimInscricoes;
+    public ?string $linkRedesSociais;
+    public ?string $linkImagem;
+    public ?string $linkArquivosComplementares;
+    public ?string $observacoesFinais;
 
     function __construct($row)
     {

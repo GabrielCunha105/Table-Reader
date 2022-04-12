@@ -24,24 +24,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'cfd79227eb0ff1fdd4d4802daec797ee6e1ec7e4',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'cfd79227eb0ff1fdd4d4802daec797ee6e1ec7e4',
     ),
     'firebase/php-jwt' => 
     array (
@@ -63,21 +63,21 @@ private static $installed = array (
     ),
     'google/apiclient-services' => 
     array (
-      'pretty_version' => 'v0.242.0',
-      'version' => '0.242.0.0',
+      'pretty_version' => 'v0.243.0',
+      'version' => '0.243.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '73d4c0ed4b241e7396699e0ee1d1cdebabac25e8',
+      'reference' => 'd42d368b73a26e1d2a5250ac91cf89bb19e0730b',
     ),
     'google/auth' => 
     array (
-      'pretty_version' => 'v1.19.0',
-      'version' => '1.19.0.0',
+      'pretty_version' => 'v1.20.0',
+      'version' => '1.20.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '31e5d24d5fa0eaf6adc7e596292dc4732f4b60c5',
+      'reference' => '321e5b6b993a3c09291f732cb5f9c899000b82b9',
     ),
     'guzzlehttp/guzzle' => 
     array (
@@ -108,12 +108,12 @@ private static $installed = array (
     ),
     'monolog/monolog' => 
     array (
-      'pretty_version' => '2.4.0',
-      'version' => '2.4.0.0',
+      'pretty_version' => '2.5.0',
+      'version' => '2.5.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'd7fd7450628561ba697b7097d86db72662f54aef',
+      'reference' => '4192345e260f1d51b365536199744b987e160edc',
     ),
     'paragonie/constant_time_encoding' => 
     array (
@@ -144,12 +144,12 @@ private static $installed = array (
     ),
     'psr/cache' => 
     array (
-      'pretty_version' => '2.0.0',
-      'version' => '2.0.0.0',
+      'pretty_version' => '1.0.1',
+      'version' => '1.0.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '213f9dbc5b9bfbc4f8db86d2838dc968752ce13b',
+      'reference' => 'd11b50ad223250cf17b86e38383413f5a6764bf8',
     ),
     'psr/http-client' => 
     array (
@@ -201,12 +201,12 @@ private static $installed = array (
     ),
     'psr/log' => 
     array (
-      'pretty_version' => '3.0.0',
-      'version' => '3.0.0.0',
+      'pretty_version' => '1.1.4',
+      'version' => '1.1.4.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'fe5ea303b0887d5caefd3d431c3e61ad47037001',
+      'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
     ),
     'psr/log-implementation' => 
     array (
@@ -226,12 +226,12 @@ private static $installed = array (
     ),
     'symfony/deprecation-contracts' => 
     array (
-      'pretty_version' => 'v3.0.1',
-      'version' => '3.0.1.0',
+      'pretty_version' => 'v2.5.1',
+      'version' => '2.5.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '26954b3d62a6c5fd0ea8a2a00c0353a14978d05c',
+      'reference' => 'e8b495ea28c1d97b5e0c121748d6f9b53d075c66',
     ),
   ),
 );
